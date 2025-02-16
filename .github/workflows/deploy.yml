@@ -49,8 +49,8 @@ jobs:
             docker-compose --version
 
             # Navigate to the project directory and deploy
-            cd /home/ubuntu/
-            git clone https://github.com/khadree/fastapi-book-project.git
+            # cd /home/ubuntu/
+            # git clone https://github.com/khadree/fastapi-book-project.git
             cd fastapi-book-project/
             git fetch origin main
             git reset --hard origin/main
