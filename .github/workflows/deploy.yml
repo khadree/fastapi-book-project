@@ -25,8 +25,8 @@ jobs:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-        script: |
-          # Update package index and install dependencies
+          script: |
+           # Update package index and install dependencies
             sudo apt-get update -y
             sudo apt-get install -y apt-transport-https ca-certificates curl software-properties-common
              # Add Docker's official GPG key
